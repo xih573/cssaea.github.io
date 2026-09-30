@@ -152,12 +152,16 @@ body {
 }
 
 .content-block p {
-  margin: 0;
+  margin: 0 0 18px 0;
 
   font-size: 16px;
-  line-height: 1.85;
+  line-height: 1.9;
 
   color: #333;
+}
+
+.content-block p:last-child {
+  margin-bottom: 0;
 }
 
 
